@@ -10,4 +10,12 @@
         <FrameworkReference Include="Microsoft.AspNetCore.App" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Domain\Exceptions\" />
+      <Folder Include="Domain\Services\" />
+      <Folder Include="Drivens\IdentityService\Dtos\" />
+      <Folder Include="Drivens\IdentityService\Services\" />
+      <Folder Include="Drivings\" />
+    </ItemGroup>
+
 </Project>
