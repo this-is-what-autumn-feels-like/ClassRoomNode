@@ -1,3 +1,3 @@
 ﻿namespace Application.Domain.ValueObjects;
 
-public abstract record BaseGuidId(Guid Val);
+public record UserId(string Val);
