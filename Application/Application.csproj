@@ -13,7 +13,9 @@
     <ItemGroup>
       <Folder Include="Domain\Exceptions\" />
       <Folder Include="Domain\Services\" />
+      <Folder Include="Drivens\Database\Repositories\" />
       <Folder Include="Drivens\IdentityService\Dtos\" />
+      <Folder Include="Drivens\IdentityService\Exceptions\" />
       <Folder Include="Drivens\IdentityService\Services\" />
       <Folder Include="Drivings\" />
     </ItemGroup>

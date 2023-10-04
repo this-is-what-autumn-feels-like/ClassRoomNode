@@ -12,5 +12,9 @@ public class OrgMember : BaseEntity<OrgMemberId>
 
     public Organization? Organization { get; init; }
 
+    public List<ClassRoom>? MyCreatedClassRoomList { get; init; }
+    
+    public List<ClassMember>? ClassMemberList { get; init; }
+    
     #endregion
 }

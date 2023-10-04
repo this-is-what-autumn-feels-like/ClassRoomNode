@@ -8,11 +8,15 @@ public class ClassRoom : BaseEntity<ClassRoomId>
 
     public required OrgMemberId OrgMemberCreatorId { get; init; }
 
+    public required ClassRoomName Name { get; set; }
+
     #region RelationShips
 
     public Organization? Organization { get; init; }
 
-    public OrgMember? OrgMember { get; init; }
+    public OrgMember? OrgMemberCreator { get; init; }
+
+    public List<ClassMember>? ClassMemberList { get; init; }
 
     #endregion
 }
